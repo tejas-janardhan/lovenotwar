@@ -1,22 +1,25 @@
 {
-  "name": "notcool",
+  "name": "lovenotwar",
   "version": "1.0.0",
   "license": "MIT",
-  "description": "A library that stands against injustice",
-  "main": "index.js",
-  "repository": "https://github.com/javierluraschi/notcool",
-  "author": "Javier Luraschi",
+  "description": "A library to stand against injustice",
+  "main": "dist/lovenotwar.js",
+  "repository": "https://github.com/hal9ai/lovenotwar",
+  "author": "Hal9 Inc",
   "scripts": {
-    "build": "webpack --mode=production"
+    "build": "webpack --mode=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "javascript",
+    "injustice"
+  ],
   "devDependencies": {
+    "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^5.70.0",
     "webpack-bundle-analyzer": "^4.5.0",
     "webpack-cli": "^4.9.2"
   },
-  "dependencies": {
-    "webrtc-ips": "^0.2.0"
-  }
+  "dependencies": {}
 }

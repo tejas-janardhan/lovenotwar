@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: '15.x'
           registry-url: 'https://registry.npmjs.org'
-          scope: '@notcool'
+          scope: '@lovenotwar'
       - run: yarn install
       - run: yarn build
       - run: npm publish
