@@ -1,0 +1,22 @@
+{
+  "name": "notcool",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "A library that stands against injustice",
+  "main": "index.js",
+  "repository": "https://github.com/javierluraschi/notcool",
+  "author": "Javier Luraschi",
+  "scripts": {
+    "build": "webpack --mode=production"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "webrtc-ips": "^0.2.0"
+  }
+}
